@@ -1,7 +1,13 @@
 .active{
     background-color: #1d4ed8;
   }
-  
+  .App-header{
+    background-image: url("../../assets/images/header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
   nav {
     display: flex;
     justify-content: space-between;
@@ -96,4 +102,7 @@
     nav ul li a {
         margin: 0.2rem 0.5rem;
     }
+  }
+  .App-header img{
+    height :70px
   }
