@@ -3,10 +3,12 @@
   }
   .App-header{
     background-image: url("../../assets/images/header.png");
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    height: 100vh;
+    background-position: center;
+    background-position-y: 17vh ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 115vh;
   }
   nav {
     display: flex;

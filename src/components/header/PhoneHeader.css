@@ -1,0 +1,36 @@
+.active {
+  background-color: #1d4ed8;
+}
+.Logo {
+  /* background-image: url("../../assets/images/background.svg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 75px;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* padding: auto; */
+  /* height: 40%; */
+  height: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* justify-content: space-between; */
+  background-color: #0f172a;
+}
+.Logo img {
+    height: auto;
+    padding: 5px;
+}
+.bottom-menu {
+  flex-direction: row;
+  align-items: flex-start;
+  /* navbar bottom*/
+  position: fixed;
+  top: auto;
+  bottom: 0;
+  padding: 5px 10px 5px 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0f172a;
+}

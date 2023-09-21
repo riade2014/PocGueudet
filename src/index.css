@@ -4,3 +4,93 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+div {
+  white-space: normal;
+  width: 100%;
+}
+.body {
+  display: grid;
+  /* margin-top: 7vh; */
+}
+.background-image {
+  display: grid;
+  height: 256px;
+}
+.intro {
+  background: linear-gradient(175.14deg, #6ebfad -199.89%, #0f1010 55.18%);
+  color: white;
+  border:0px;
+  padding: 5px;
+}
+.intro label {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 32px;
+  padding-top: 16px;
+  padding-left: 16px;
+  /*no wrap*/
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.intro p {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 8px 16px 0 16px;
+}
+.tabs-menu {
+  background-color: black;
+  display: flex;
+  color: white;
+}
+.tabs-menu ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 8px 16px 8px 16px;
+}
+
+/* .tabs-menu ul li {
+} */
+
+.tabs-menu ul li {
+  list-style: none; 
+  display: flex;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.tab{
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  display: block;
+}
+.tabs-menu .Mui-selected{
+  color: rgba(110, 191, 173, 1);
+}
+.tabs-menu .MuiTouchRipple-root{
+  display: none;
+}
+.bottom-menu img {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+
+}

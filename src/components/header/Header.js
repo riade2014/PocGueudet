@@ -20,14 +20,13 @@ function Header() {
   let isPhone=false;
   if ('ontouchstart' in window) {
     isPhone=true;
-  } 
+  }
   return (
-    <div className="App-headers">
-      {isPhone+"s"}
+    <div className="App-header">
       <Router>
         <nav>
           <div className="title">
-            <img src={logo} alt="Logo"/>
+            <img src={logo} alt="Logo" />
           </div>
           <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
             <span></span>
