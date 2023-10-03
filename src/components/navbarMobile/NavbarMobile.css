@@ -1,4 +1,4 @@
-/* .active{
+.active{
     background-color: #1d4ed8;
   }
 .App-header{
@@ -7,12 +7,11 @@
     background-size: cover;
     align-content: center;
     height: 30vh;
-    width: auto; */
+    width: auto;
     /* background-position-y: 100px;
     height: auto;
     top: 0;
-   */
-/*   
+   */   
   }
   nav {
     display: flex;
@@ -40,4 +39,4 @@
  nav ul li {
    list-style: none; 
   }
-   */
+  

@@ -22,17 +22,17 @@ import NavbarPc from "../navbarPc/NavbarPc";
 function Header() {
   // const [menuOpen, setMenuOpen] = useState(false);
   // let isPhone=false;
-  if (!!('ontouchstart' in window)) {
+  if ('ontouchstart' in window) {
     return (
-      
-        <NavbarMobile />
-      
+      <NavbarMobile />
+
+
     );
   } else {
     return (
-      
+
       <NavbarPc />
-      
+
     );
   }
 }

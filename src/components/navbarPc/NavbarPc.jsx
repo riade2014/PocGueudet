@@ -15,7 +15,7 @@ import Groupe from "../pages/Groupe";
 import Avis from "../pages/Avis";
 import Concession from "../pages/Concession";
 import "./NavbarPc.css";
-import logo from '../../assets/images/logo.png'
+import logo from '../../assets/images/logo.png';
 
 function NavbarPc(){
     const [menuOpen, setMenuOpen] = useState(false);

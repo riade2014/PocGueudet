@@ -22,7 +22,6 @@ function NavbarMobile(){
               <div className="title">
                 <img src={logo} alt="Logo"/>
               </div>
-              
               <ul>
                 <li>
                   <NavLink to="/acheter">Acheter</NavLink>
