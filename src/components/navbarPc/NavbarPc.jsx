@@ -20,11 +20,11 @@ import logo from '../../assets/images/logo.png';
 function NavbarPc(){
     const [menuOpen, setMenuOpen] = useState(false);
     return(
-        <div className="App-header">
+        <div className="App-headerP">
 
         <Router>
-          <nav>
-            <div className="title">
+          <nav className="app-navP">
+            <div className="titleP">
               <img src={logo} alt="Logo" />
             </div>
             <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
@@ -32,23 +32,25 @@ function NavbarPc(){
               <span></span>
               <span></span>
             </div>
-            <ul className={menuOpen ? "open" : ""}>
-              <li>
+            {/* <ul className={menuOpen ? "open" : ""}> */}
+            <ul className={` app-ulP ${menuOpen ? "open" : "" }`}> 
+            {/* une des façons de faire la declaration de plusieaurs attributs dans un meme className */}
+              <li className="app-liP">
                 <NavLink to="/acheter">Acheter</NavLink>
               </li>
-              <li>
+              <li className="app-liP">
                 <NavLink to="/Entretenir">Entretenir</NavLink>
               </li>
-              <li>
+              <li className="app-liP">
                 <NavLink to="/vendre">Vendre</NavLink>
               </li>
-              <li>
+              <li className="app-liP">
                 <NavLink to="/groupe">Groupe</NavLink>
               </li>
-              <li>
+              <li className="app-liP">
                 <NavLink to="/avis">Avis client</NavLink>
               </li>
-              <li>
+              <li className="app-liP">
                 <NavLink to="/concession">Trouver concession</NavLink>
               </li>
             </ul>

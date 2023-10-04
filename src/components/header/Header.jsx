@@ -23,16 +23,21 @@ function Header() {
   // const [menuOpen, setMenuOpen] = useState(false);
   // let isPhone=false;
   if ('ontouchstart' in window) {
+    // alert("voici la version mobile"+('ontouchstart' in window));
     return (
-      <NavbarMobile />
-
+      <>
+        <NavbarMobile />
+        
+      </>
 
     );
   } else {
+    // alert('ontouchstart' in window);
     return (
-
-      <NavbarPc />
-
+      <>
+        <NavbarPc />
+        
+      </>
     );
   }
 }

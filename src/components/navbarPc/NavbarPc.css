@@ -1,14 +1,14 @@
 .active{
     background-color: #1d4ed8;
   }
-  .App-header{
+  .App-headerP{
     background-image: url("../../assets/images/header.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
   }
-  nav {
+  .app-navP {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,23 +18,23 @@
     top: 0;
   }
   
-  nav .title {
+  .app-navP .titleP {
     font-size: 1.5rem;
-    margin: 1rem;
+    margin: 0.5rem;
     font-weight: bold;
     text-decoration: none;
     color: white;
   }
   
-  nav ul {
+  .app-navP .app-ulP {
     display: flex;
   }
   
-  nav ul li {
+  .app-navP .app-ulP .app-liP {
    list-style: none; 
   }
   
-  nav ul li a {
+  .app-navP .app-ulP .app-liP a {
     display: block;
     text-decoration: none;
     color: white;
@@ -43,11 +43,11 @@
     border-radius: 0.5rem;
   }
   
-  nav ul li a:not(.active):hover {
+  .app-navP .app-ulP .app-liP a:not(.active):hover {
     background-color:#172554 ;
   }
   
-  nav .menu {
+  .app-navP .menu {
     display: none;
     position: absolute;
     top: 0.75rem;
@@ -58,7 +58,7 @@
     height: 2rem;
   }
   
-  nav .menu span {
+  .app-navP .menu span {
     height: 0.4rem;
     width: 100%;
     background-color: #fff;
@@ -67,13 +67,13 @@
   
   
   @media (max-width: 480px) {
-    nav .menu {
+    .app-navP .menu {
         display: flex;
     }
-  
-    nav {
-        /* flex-direction: column;
-        align-items: flex-start; */
+
+    .app-navP {
+        flex-direction: column;
+        align-items: flex-start;
       
         /* navbar bottom*/
         /* position: fixed;
@@ -83,28 +83,34 @@
         
     }
   
-    nav ul {
-      display: flex;
-        /* display: none;
-        flex-direction: column; */
+    .app-navP .app-ulP {
+      /* display: flex; */
+        display: none;
+        flex-direction: column;
         width: 100%;
+        
         margin-bottom: 0.25rem;
     }
   
-    nav ul.open {
+    .app-navP .app-ulP.open {
         display: flex;
         
     }
   
-    nav ul li {
+    .app-navP .app-ulP .app-liP {
         width: 100%;
         text-align: center;
     }
   
-    nav ul li a {
-        margin: 0.2rem 0.5rem;
+    .app-navP .app-ulP .app-liP a {
+       margin: 0.2rem 0.5rem;
     }
   }
-  .App-header img{
+
+  
+  .App-headerP img{
     height :70px
   }
+
+/* je gere la partie mobile ici */
+  

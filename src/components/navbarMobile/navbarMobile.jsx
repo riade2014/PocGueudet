@@ -15,22 +15,22 @@ import logo from '../../assets/images/logo.png'
 
 function NavbarMobile(){
     return (
-        <div className="App-header">
+        <div className="App-headerMO">
           
           <Router>
-            <nav>
-              <div className="title">
+            <nav className="app-nav">
+              <div className="titleMo">
                 <img src={logo} alt="Logo"/>
               </div>
-              <ul>
-                <li>
-                  <NavLink to="/acheter">Acheter</NavLink>
+              <ul className="app-ul">
+                <li className="app-li">
+                  <NavLink className="navlink" to="/acheter">Acheter</NavLink>
                 </li>
-                <li>
-                  <NavLink to="/Entretenir">Entretenir</NavLink>
+                <li className="app-li">
+                  <NavLink className="navlink" to="/Entretenir">Entretenir</NavLink>
                 </li>
-                <li>
-                  <NavLink to="/vendre">Vendre</NavLink>
+                <li className="app-li">
+                  <NavLink className="navlink" to="/vendre">Vendre</NavLink>
                 </li>
               </ul>
             </nav>
